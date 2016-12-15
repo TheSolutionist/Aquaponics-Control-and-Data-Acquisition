@@ -37,8 +37,8 @@ OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature DS18B20(&oneWire);
 float prevTemp = 0;
 const char* thingSpeak = "api.thingspeak.com";
-String tempApiKey ="GH16ZXTLAG8EZBQ3";
-String phApiKey ="A3AL512Q2G9IAZDQ";
+String tempApiKey ="YOUR_API_KEY";
+String phApiKey ="YOUR_API_KEY";
 int sent = 0;
 // For Temperature Sensor ^
 
